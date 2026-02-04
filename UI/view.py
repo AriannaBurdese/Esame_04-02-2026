@@ -26,6 +26,7 @@ class View:
     def set_controller(self, controller):
         self._controller = controller
 
+
     def popola_dropdown_ruolo(self, ruoli):
         self.dd_ruolo.options = [ft.dropdown.Option(text=r) for r in ruoli]
         self.dd_ruolo.update()
